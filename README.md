@@ -1,0 +1,1 @@
+This project contains some simple shiny apps I created with R. They are not complex but rather serve as  learning shiny. 
