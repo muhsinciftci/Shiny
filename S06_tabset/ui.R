@@ -14,7 +14,7 @@ shinyUI(
                     ),
         br(),
         sliderInput('bins', 'Select the number of bins for the histogram', 
-                    min = 5, max = 25, value = 15),
+                    min = 5, max = 15, value = 10),
         br(),
         radioButtons('color', 'Choose the color', choices = c('grey', 'orange', 'cyan'),
                      selected = 'orange')
@@ -36,5 +36,3 @@ shinyUI(
     )
   )
 )
-
-colnames(mtcars)
