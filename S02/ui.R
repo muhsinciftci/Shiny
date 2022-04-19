@@ -10,7 +10,7 @@ shinyUI(fluidPage(
                  textInput('Name', 'Please enter your name!', ''),
                  textInput('Age',  'Please enter your age!', '')),
     
-    mainPanel(('Personal information! \n'),
+    mainPanel(('Personal information!'),
               textOutput('myname'),
               textOutput('myage')
               )
